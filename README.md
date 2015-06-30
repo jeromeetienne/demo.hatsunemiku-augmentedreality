@@ -8,7 +8,6 @@ phone if it supports WebGL and WebRTC.
 
 
 
-
 If you want to play with this kind of things,
 checkout [threex.webar](https://github.com/jeromeetienne/threex.webar),
 the three.js extensions to make augmented reality on the web.
