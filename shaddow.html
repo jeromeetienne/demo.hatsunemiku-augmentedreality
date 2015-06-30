@@ -9,16 +9,16 @@
 
 
 <!-- include js-aruco -->
-<script src='../vendor/js-aruco/svd.js'></script>
-<script src='../vendor/js-aruco/posit1-patched.js'></script>
-<script src='../vendor/js-aruco/cv.js'></script>
-<script src='../vendor/js-aruco/aruco.js'></script>
+<script src='vendor/js-aruco/svd.js'></script>
+<script src='vendor/js-aruco/posit1-patched.js'></script>
+<script src='vendor/js-aruco/cv.js'></script>
+<script src='vendor/js-aruco/aruco.js'></script>
 
 <!-- include some extensions -->
-<script src='../src/threex.webcamgrabbing.js'></script>
-<script src='../src/threex.imagegrabbing.js'></script>
-<script src='../src/threex.videograbbing.js'></script>
-<script src='../src/threex.jsarucomarker.js'></script>
+<script src='js/threex.webcamgrabbing.js'></script>
+<script src='js/threex.imagegrabbing.js'></script>
+<script src='js/threex.videograbbing.js'></script>
+<script src='js/threex.jsarucomarker.js'></script>
 
 <body style='margin: 0px; overflow: hidden; text-align:center;'>
 
@@ -133,7 +133,7 @@
 		})
 		
 
-		var geometry = new THREE.PlaneGeometry(1,1,10,10)
+		var geometry = new THREE.PlaneGeometry(1,2,10,10)
 		var material = new THREE.MeshPhongMaterial({
 			color : 'white'
 		})
