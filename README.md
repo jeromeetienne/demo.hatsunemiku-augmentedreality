@@ -14,3 +14,4 @@ the three.js extensions to make augmented reality on the web.
 - Thanks to them all, i [@jerome_etienne](http://twitter.com/jerome_etienne) did 
   hatsune mike dancing in augmented reality 
   
+3
