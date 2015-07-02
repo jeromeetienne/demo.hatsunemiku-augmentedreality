@@ -4,7 +4,7 @@ This demo shows hatsune miku dancing in augmented reality within your browser!
 The Most funny part is that it run on web standards, so you can run it on your
 phone if it supports WebGL and WebRTC.
 
-![screenshot](https://raw.githubusercontent.com/jeromeetienne/demo.hatsunemiku-augmentedreality/images/screenshot-nexus9.png)
+![screenshot](https://raw.githubusercontent.com/jeromeetienne/demo.hatsunemiku-augmentedreality/master/images/screenshot-nexus9.png)
 
 
 
@@ -23,8 +23,6 @@ the three.js extensions to make augmented reality on the web.
 
 ## What is this Demo ?
 It allows you to run augmented reality
-
-
 
 ## How I Coded this Demo ?
 
