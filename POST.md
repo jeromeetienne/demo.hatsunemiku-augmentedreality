@@ -1,3 +1,30 @@
+
+# Hatsune Miku Dancing in Augmented Reality
+
+This demo shows hatsune miku dancing in augmented reality within 
+your browser! This is great and surprisingly easy to do.
+All that running on your browser, based on web standards.
+Best of all, it even run on mobile phone if it 
+supports WebGL and WebRTC.
+
+I did it to show it was possible to do AR within the browser and to share the code to see what you guys can do with it. Below is a screenshot made on a nexus.
+
+![screenshot](https://raw.githubusercontent.com/jeromeetienne/demo.hatsunemiku-augmentedreality/master/images/screenshot-nexus9.png)
+
+If you want to play with this kind of things,
+checkout [threex.webar](https://github.com/jeromeetienne/threex.webar),
+the three.js extensions to make augmented reality on the web.
+
+
+# How To Run The Demo ?
+- put a browser on http://jeromeetienne.github.io/demo.hatsunemiku-augmentedreality
+- it will read your webcam using [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia)
+  - if it asks for permission, allow it :)
+- it will recognize the marker you put in front of the mcamera
+  - get the marker from [here](http://jeromeetienne.github.io/threex.webar/demo.hatsunemiku-augmentedreality/image-marker-265.html)
+  - you can print it and point the camera toward the paper
+  - or you can load the marker web page and put the phone in front of the camera
+
 # Notes
 - andra to write a blabla on the historical context
   - find below possible lines
@@ -5,8 +32,6 @@
   - I did this with just a marker 
   - I did this for the DAQRI hackathon 
   - It is great! Hatsune miku in three.js dancing in AR 
-- describe what is the demo
-- explain that it runs on mobile too, shortly
 
 - explain where Hatsune miku code is coming from
   - hasune miku wikipedia link. find cool video on youtube.
@@ -26,32 +51,3 @@
     - it may be included in three.js soon.
     - Here is his [example for three.js](http://takahirox.github.io/three.js/examples/#webgl_loader_mmd)
     - there is a very nice version in pure webgl (TODO find link) too
-
-# Hatsune Miku Dancing in Augmented Reality
-
-This demo shows hatsune miku dancing in augmented reality within your browser!
-All that running on your browser, based on web standards.
-You can even run it on your phone if it supports WebGL and WebRTC.
-
-![screenshot](https://raw.githubusercontent.com/jeromeetienne/demo.hatsunemiku-augmentedreality/master/images/screenshot-nexus9.png)
-
-If you want to play with this kind of things,
-checkout [threex.webar](https://github.com/jeromeetienne/threex.webar),
-the three.js extensions to make augmented reality on the web.
-
-## What is this Demo ?
-It allows you to run augmented reality
-
-
-
-## How I Coded this Demo ?
-
-# How To Run The Demo ?
-- put a browser on http://jeromeetienne.github.io/demo.hatsunemiku-augmentedreality
-- it will read your webcam using [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia)
-  - if it asks for permission, allow it :)
-- it will recognize the marker you put in front of the mcamera
-  - get the marker from [here](http://jeromeetienne.github.io/threex.webar/demo.hatsunemiku-augmentedreality/image-marker-265.html)
-  - you can print it and point the camera toward the paper
-  - or you can load the marker web page and put the phone in front of the camera
->>>>>>> 33fcda211679c8c662b96959861928bb19b814fd
